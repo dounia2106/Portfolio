@@ -1,0 +1,652 @@
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dounia Sahli - Bienvenue sur mon Portfolio</title>
+  <meta name="description" content="Portfolio de Dounia Sahli  ">
+  <link rel="shortcut icon" href="./img/favicon.ico?v=1" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <script src="global.js" defer></script>
+
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container d-flex">
+      <div class="logo">
+        Dounia Sahli
+      </div>
+      <nav class="navbar ">
+        <ul class="menu list-unstyled">
+          <li><a href="#hero">Accueil</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#experiencepro">Expérience professionnel</a></li>
+          <li><a href="#BTS SIO">BTS SIO</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#E4">E4</a></li>
+          <li><a href="#Veuille Technologique">Veuille Technologique </a></li>
+        </ul>
+      </nav>
+      <div class="right">
+        <ul class="socials list-unstyled">
+          <li>
+            <a href="https://www.linkedin.com/in/dounia-sahli-9b8474253" >
+              <svg aria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab" data-icon="linkedin-in"
+                class="svg-inline--fa fa-linkedin-in fa-w-14" target="_blank" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512">
+                <path fill="currentColor"
+                  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://google.fr">
+              <svg aria-hidden="true" class="icon twitter" focusable="false" data-prefix="fab" data-icon="twitter"
+                class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512">
+                <path fill="currentColor"
+                  d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                </path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com/sd.webdesigner?r=nametag">
+              <svg aria-hidden="true" class="icon insta" focusable="false" data-prefix="fab" data-icon="instagram"
+                class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512">
+                <path fill="currentColor"
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                </path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <button class="burger"><span class="bar"></span></button>
+      </div>
+    </div>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="grid">
+        <div class="hero__item left">
+          <span>Développeuse Web </span>
+          <h1 class="title">Bienvenue sur mon Portfolio</h1>
+          <p>Dounia Sahli</p>
+        </div>
+        <div class="hero__item right">
+          <div class="hero__avatar">
+            <img src="./image/image.svg" width="400" height="400" loading="lazy"
+              alt="Avatar Dounia Sahli ">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about">
+    <div class="container">
+      <div class="grid">
+        <div class="grid__item">
+          <img src="video/Video.GIF" width="560" height="453" loading="lazy"
+            alt="Dounia Sahli ">
+        </div>
+        <div class="grid__item">
+          <h2 class="section-title">A propos</h2>
+          <h3>Qui suis-je?</h3>
+         <p> Bonjour, moi c'est Dounia SAHLI 👋
+          <br>
+          Je suis actuellement étudiante au CFA ITIS INGETIS à Evry 🗺️ en deuxiéme année de BTS SIO (Services Informatiques aux Organisations) dans l'option SLAM (Solutions Logicielles et Application Métier) qui est une option spécialisée pour le développement 💻
+          
+          
+          Actuellement toujours en cours d'étude 🎓, je vous propose sur ce portfolio de retrouver ci-dessous les différentes études, et projet professionnel que j'ai pu entreprendre au sein de ma carrière.
+          
+          Vous retrouverez ci-dessous mon CV ainsi que mes différents projets 👩‍💻</p>
+          <p><strong>Veuillez trouvez ci-joint mon cv .</strong> </p>
+          
+          <div class="cv">
+      
+          </div>
+          
+          <div class="CV">
+            <br>
+            <br>
+            <a href="image/cv.jpg" class="leBouton leBouton2">Télécharger CV</a>
+          </div>
+
+          <div class="col-md-12 work">
+						<div class="row">
+							<div class="col-md-6 col-md-push-6">
+								<div class="half-inner half-inner2" style="background-image:url(images/Moutarde\ et\ Blanc\ Cercle\ Photo\ Musique\ Affiche\ de\ Festival.jpg);">
+								</div>
+							</div>  
+  </section>
+  <section id="#experiencepro" class="Experience Proffesionel">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Experience Proffesionel </h2>
+        <p><strong> Durant mes deux ans en alternace j'ai était en entreprise dans le secteur de la fibre optique , vous trouverez une description de l'entreprise ci-dessous :</strong></p>
+        <br>         <br>
+        <br>
+    </div><div class="bloc">
+      <a href="Veille-technologique-Android-Studio.html"><img src="image/axione.jpg"  class="nom-de-la-classe"></a> 
+   </div>
+</section>
+  <section id="BTS SIO" class="BTS SIO">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">BTS SIO</h2>
+        <p><strong> BTS SIO QU’EST-CE QUE C’EST ?</strong></p>
+        <br>
+        <p>Le BTS SIO (Services Informatiques aux Organisations) est un diplôme reconnu par l’état de niveau BAC+2.
+          Il s’adresse à ceux qui souhaitent se former en deux ans aux métiers d’administrateur réseau ou de développeur pour intégrer directement le marché du travail ou continuer des études dans le domaine de l’informatique.
+          Il existe deux options bien distinctes, l’option SLAM et l’option SISR.</p>
+         <br>
+        <br>
+        
+        <p><strong>LES OPTIONS DU BTS SIO</strong></p>
+        <br>
+        <p>En BTS SIO, il est possible d'opter pour deux options du secteur informatique, selon ses compétences et son projet professionnel : <strong>Solutions d’infrastructure, systèmes et réseaux (SISR) </strong>ou <strong>Solutions logicielles et applications métiers forme des spécialistes des logiciels (SLAM)</strong>.</p>
+       <br>
+       <div class="con">
+      <h7><strong>Option SISR: SOLUTIONS D’INFRASTRUCTURES SYSTÈMES ET RÉSEAU</strong></h7>
+      <br>
+      <br>
+      <p>L’option Solutions d’infrastructure, systèmes et réseaux forme des professionnels des réseaux et équipements informatiques (installation, maintenance, sécurité). En sortant d’un BTS SIO SISR, vous serez capables de gérer et d’administrer le réseau d’une société et d’assurer sa sécurité et sa maintenance.</p>
+      <img src="image/datacenter.jpg" alt="Avatar" class="image">
+      <br>
+      <br>
+     <h8><strong>Option SLAM: SOLUTIONS LOGICIELLES ET APPLICATIONS MÉTIERS</strong></h8>
+     <br>
+     <br>
+      <p>L’option Solutions logicielles et applications métiers forme des spécialistes des logiciels (rédaction d’un cahier des charges, formulation des besoins et spécifications, développement, intégration au sein de la société).</p>
+       <br>
+      <img src="image/fle.png" alt="Avatar" class="image">
+       </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+
+  </section>
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Mes compétences</h2>
+        <p>Durant mes deux années de BTS j'ai acqueris des compétences que vous pouvez voir ci-dessous!</p>
+      </div>
+      <div class="grid">
+        <div class="grid__item">
+          <h3>Domaines de compétences</h3>
+          <ul class="list-unstyled">
+            <li>
+              <h4>Compétence HTML</h4>
+              <p> Insérertion des différents contenus d’une page web (menu, textes, images, vidéos) et de commencer à les mettre en forme.</p>
+            </li>
+            <li>
+              <h4>Compétence CSS</h4>
+              <p> Organiser et disposer tous ces éléments HTML sur une page web, souvent en s’appuyant sur la maquette d’un site internet réalisé par un graphiste ou un webdesigner.</p>
+            </li>
+            <li>
+              <h4>Compétence JAVASCRIPT</h4>
+              <p> construire des sites web créatifs et interactifs avec des interfaces utilisateur faciles à utiliser</p>
+            </li>
+            <li>
+              <h4>Compétence PHP</h4>
+              <p>Utilisation d'une BDD , connexion entre les pages , gestion de la connexion utilisateur</p>
+            </li>
+            <li>
+              <h4>Compétence Symphony</h4>
+              <p>Description de la compétence</p>
+            </li>
+            <li>
+              <h4>Compétence MYSQL</h4>
+              <p>Description de la compétence</p>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="grid__item">
+          <h3>Compétences en développement</h3>
+          <div class="progressbar">
+            <div class="bar" data-width="80">HTML</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="90">CSS</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="65">JAVASCRIPT</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="80">PHP</div>
+          </div>
+          <div class="progressbar">
+            <div class="bar" data-width="50">Symphony</div>
+          </div>
+          
+          <h3>Compétences en Base de Donées</h3>
+          <div class="progressbar">
+            <div class="bar" data-width="90">MYSQL</div>
+          </div>
+          <br>
+          <br>
+          <a href="6-Annexe-6-1-Tableau-de-synthèse-Epreuve-E4-BTS-SIO-2023.html" class="leBouton leBouton2">Voir Tableaux de Compétences</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Portfolio</h2>
+        <p>Dans ce portfolio vous trouverez mes réalisations réalisé durant mes deux années de BTS </p>
+      </div>
+      <ul class="grid portfolio-filters list-unstyled">
+        <li class="grid__item">
+          <a href="#" class="active" data-filter="all">Tous les projets</a>
+        </li>
+        <li class="grid__item">
+          <a href="#" data-filter="web">Développement web</a>
+        </li>
+        <li class="grid__item">
+          <a href="#" data-filter="app">Applications</a>
+        </li>
+      </ul>
+      <div class="grid">
+        <div class="grid__item">
+          <div class="card" data-category="web">
+            <img src="image/festivalsite.png" loading="lazy" width="365" height="243"
+              alt="projet Site web" class="card__image">
+            <div class="card__inner">
+              <h3 class="card__title">Site Web "FESTIVAL" </h3>
+              <p class="category">Développement Web</p>
+            </div>
+            <div class="card__overlay">
+              <a href="#" class="card__link" data-id="modal-1">+</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-1">
+            <button class="modal__close">&times;</button>
+
+            <div class="modal__content">
+
+              <div class="container">
+                <div class="grid">
+                  <div class="grid__item">
+                    <img src="image/festivalsite.png" loading="lazy" width="560" height="373"
+                      class="card__image" alt="Projet site de la ville de lyon" />
+                    <img src="image/LOGO BDE.png" loading="lazy" width="560" height="373"
+                      class="card__image" alt="Projet site de la ville de lyon" />
+                  </div>
+                  <div class="grid__item">
+                    <h4 class="modal__title h2">FESTIVAL</h4>
+                    <p>
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                        data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                          d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                        </path>
+                      </svg>
+                      <i>Année : 2022</i>
+                    </p>
+                    <p class="category">
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                        class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                        </path>
+                      </svg>
+
+                    <h5 class="h3">Contexte</h5>
+                    <p>
+                  Le festival de musique Folklores du Monde est un festival de musique se déroulant tous les ans durant la première semaine de juillet dans la ville bretonne de Saint-Malo. Il permet de réunir différents groupes venant de France mais aussi du reste du monde.
+                  La ville s’attache à bien recevoir les groupes et prend notamment en charge l’hébergement et la restauration durant leur
+                  séjour. Les groupes sont invités pour la semaine entière ou pour une partie de la semaine.
+                  L’hébergement des groupes est assuré par divers établissements d’accueil : le Centre de Rencontres Internationales
+                 (CRI) et les établissements scolaires de la ville disposant d’un internat. Ces entités sont sollicitées pour mettre à
+                  disposition les chambres de leur établissement.
+                  <br>
+                  <br>
+                  Contexte du projet : <a href="image/cv.jpg" class="leBouton leBouton2">Contexte Projet Festival </a>
+                    </p>
+
+                    <h5 class="h3">Déroulement du projet</h5>
+                    <p> 
+                      Ce projet a été réalisé par équipes de 2 . Certaines tâches ont été réalisées par chaque membre de l’équipe tandis que d’autres ont été répartis. A chaque début de séance, nous réalisions une « réunion (Discord)» afin de mettre au clair le travail fait, en cours et à faire, nous mettions ensuite à jour notre Trello (site permettant de faciliter la gestion de projets) afin d’être à jour et de pouvoir suivre plus efficacement le projet.
+                    </p>
+                     
+                    <h5 class="h3">Le projet </h5>
+                    <p>
+                      Nous étions chargés  de modifier une application web déjà existante, « Festival », qui permettait la gestion des groupes participant au festival. Nous devions alors rajouter des fonctionnalités afin que la prise en charge des groupes soit assurée.
+                      <br>
+                      <br>
+                      <a href="image/cv.jpg" class="leBouton leBouton2">Description Situation professionnelle</a>
+                    </p>
+                    <h5 class="h3">Technologies</h5>
+
+                    <ul>
+                      <li>HTML, CSS</li>
+                      <li>Javascript</li>
+                      <li>Symphony</li>
+                      <li>MYSQL</li>
+
+                    </ul>
+                    <h5 class="h3">Compétences acquises</h5>
+                    <ul>
+                      <li>Répondre aux incidents et aux demandes d’assistance et d’évolution</li>
+                      <li>Développer la présence en ligne de l’organisation</li>
+                      <li>Travailler en mode projet
+                      </li>
+
+                    </ul>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        <div class="grid__item">
+          <div class="card" data-category="app">
+            <img src="image/android.png" loading="lazy" width="365" height="243"
+              alt="projet de la ville" class="card__image">
+            <div class="card__inner">
+              <h3 class="card__title">Application Mobile pour le BDE</h3>
+              <p class="category">Applications</p>
+            </div>
+            <div class="card__overlay">
+              <a href="#" class="card__link" data-id="modal-3">+</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-3">
+            <button class="modal__close">&times;</button>
+
+            <div class="modal__content">
+
+              <div class="container">
+                <div class="grid">
+                  <div class="grid__item">
+                    <img src="https://picsum.photos/600/400?random=2" loading="lazy" width="560" height="373"
+                      class="card__image" alt="Projet site de la ville de lyon" />
+                    <img src="https://picsum.photos/600/400?random=22" loading="lazy" width="560" height="373"
+                      class="card__image" alt="Projet site de la ville de lyon" />
+                  </div>
+                  <div class="grid__item">
+                    <h4 class="modal__title h2">Titre de la modal 3</h4>
+                    <p>
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                        data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                          d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                        </path>
+                      </svg>
+                      <i>Année : 2019</i>
+                    </p>
+                    <p class="category">
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                        class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                        </path>
+                      </svg>
+                      Refonte graphique
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit. Quaerat accusantium laborum aliquam enim. Vero
+                      voluptate, animi, sint vel mollitia ut odio, eius quis
+                      expedita quo at! Dignissimos ipsum odit dolores!
+                    </p>
+
+                    <h5 class="h3">Informations</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit. Quaerat accusantium laborum aliquam enim. Vero
+                      voluptate, animi, sint vel mollitia ut odio, eius quis
+                      expedita quo at! Dignissimos ipsum odit dolores!
+                    </p>
+
+                    <h5 class="h3">Technologies</h5>
+
+                    <ul>
+                      <li>HTML, CSS</li>
+                      <li>Javascript</li>
+                      <li>React</li>
+                      <li>Node.js</li>
+                      <li>Express.js</li>
+                      <li>MongoDB</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid__item">
+          <div class="card" data-category="web">
+            <img src="image/ppea.png" loading="lazy" width="365" height="243"
+              alt="projet de la ville" class="card__image">
+            <div class="card__inner">
+              <h3 class="card__title">SITE VITRINE EN HTML /CSS</h3>
+              <p class="category">Développement Web</p>
+            </div>
+            <div class="card__overlay">
+              <a href="#" class="card__link" data-id="modal-4">+</a>
+            </div>
+          </div>
+          <div class="modal" id="modal-4">
+            <button class="modal__close">&times;</button>
+
+            <div class="modal__content">
+
+              <div class="container">
+                <div class="grid">
+                  <div class="grid__item">
+                    <img src="https://picsum.photos/600/400?random=2" loading="lazy" width="560" height="373"
+                      class="card__image" alt="Projet site de la ville de lyon" />
+                    <img src="https://picsum.photos/600/400?random=22" loading="lazy" width="560" height="373"
+                      class="card__image" alt="Projet site de la ville de lyon" />
+                  </div>
+                  <div class="grid__item">
+                    <h4 class="modal__title h2">Titre de la modal 4</h4>
+                    <p>
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="far"
+                        data-icon="calendar" class="svg-inline--fa fa-calendar fa-w-14" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                          d="M400 64h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm-6 400H54c-3.3 0-6-2.7-6-6V160h352v298c0 3.3-2.7 6-6 6z">
+                        </path>
+                      </svg>
+                      <i>Année : 2019</i>
+                    </p>
+                    <p class="category">
+                      <svg width="15" height="15" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag"
+                        class="svg-inline--fa fa-tag fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z">
+                        </path>
+                      </svg>
+                      Refonte graphique
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit. Quaerat accusantium laborum aliquam enim. Vero
+                      voluptate, animi, sint vel mollitia ut odio, eius quis
+                      expedita quo at! Dignissimos ipsum odit dolores!
+                    </p>
+
+                    <h5 class="h3">Projet</h5>
+                    <p>
+                     J'étais chargés de développer un site web de A à Z pour faciliter la recherche de documents , d'installation de logicielles pour mon service . Le site devait comporter une description du pole , les documents relatifs au differents projets  ou un agenda avec des événements importants, une page pour présenter l’association et enfin une page comportant un formulaire d’inscription.
+                    </p>
+
+                    <h5 class="h3">Technologies</h5>
+
+                    <ul>
+                      <li>HTML, CSS</li>
+                      <li>Javascript</li>
+                      <li>React</li>
+                      <li>Node.js</li>
+                      <li>Express.js</li>
+                      <li>MongoDB</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+       
+    <section id="E4" class="E4">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Epreuve E5</h2>
+          <p><strong> En quoi consiste l'epreuve E5 ?</strong></p>
+          <br>
+          <p>L’épreuve E5 est composée de deux projets ayant un contexte commun en rapport avec l’option choisie (SISR ou SLAM). L’objectif est de mettre en place une ou des solutions informatiques visant à faire évoluer une infrastructure conformément au contexte présenté.</p>
+
+            Voici les deux situations ci dessous que j'ai réalisé:</p>
+           <br>
+          <br>
+         <div class="con">
+         <h7><strong>PPE n°1:Application mobile sous Android Studio</strong></h7>
+        <br>
+        <br>
+        <p>Cette application mobile à etait concue pour le bureau des étudiants de mon établissement afin de digitaliser la methode de communication 
+          <br>
+          <br>
+          <a href="6-Annexe-6-1-Tableau-de-synthèse-Epreuve-E4-BTS-SIO-2023.html" class="leBouton leBouton2">Voir Fiche professionnel</a>
+        </p>
+        <img src="image/android.png" alt="Avatar" class="image">
+        <br>
+        <br>
+       <h8><strong>PPE n°2:Site web de réservation d'hébergement pour le Festival de Saint Saint-Malo</strong></h8>
+       <br>
+       <br>
+        <p>Ce site web je l'ai réalise pour mon service afin de leur faciliter le traitement de documents 
+          <br>
+          <br>
+          <a href="6-Annexe-6-1-Tableau-de-synthèse-Epreuve-E4-BTS-SIO-2023.html" class="leBouton leBouton2">Voir Fiche professionnel</a>
+        </p>
+         <br>
+        <img src="image/festivalsite.png" alt="Avatar" class="image">
+         </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="Veuille Technologique" class="Veuille Technologique">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Veuille Technologique </h2>
+        <p><strong> En quoi consiste la veuille technologique ?</strong></p>
+        <br>
+        <p>La veille technologique, élément de la veille stratégique, consiste à surveiller les évolutions techniques, les innovations dans un secteur d’activité donnée. La veille technologique comprend notamment la surveillance, la collecte, le partage et la diffusion d’information permettant d’anticiper ou de s’informer sur des changements en matière de recherche, développement, brevet, lancement de nouveaux produits, matériaux, processus, concepts, innovation de fabrication, etc…. Cela a pour but d’évaluer l’impact sur l’environnement et l’organisation.</p>
+         <br>
+        <br>
+    </div><div class="bloc">
+      <a href="Veille-technologique-Android-Studio.html"><img src="image/and.png"alt="Description de l'image" class="nom-de-la-classe"></a> 
+   </div>
+</section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Contact</h2>
+        <p>N'hesiter pas à me contacter pour toutes demandes de renseignements me concernant .</p>
+      </div>
+
+      <form action="https://formsubmit.co/dounia210602@gmail.com" method="POST" class="form">
+
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_next" value="https://dgeo-dev.github.io/formation-youtube-html-cs-js/thanks.html">
+
+        <label for="firstname">
+          <input type="text" name="firstname" id="firstname" placeholder="Nom" required>
+        </label>
+        <label for="lastname">
+          <input type="text" name="lastname" id="lastname" placeholder="Prénom">
+        </label>
+        <label for="email">
+          <input type="email" name="email" id="email" placeholder="Email" required>
+        </label>
+        <textarea name="message" id="message" placeholder="Message"></textarea>
+        <input type="submit" class="btn" value="Envoyer">
+      </form>
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="grid">
+        <div class="grid__item">
+          <p>Dounia Sahli</p>
+        </div>
+        <div class="grid__item">
+          <ul class="socials list-unstyled">
+            <li>
+              <a href="https://wwww.linkedin.com/in/dounia-sahli-9b8474253">
+                <svg aria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab"
+                  data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14" role="img"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path fill="currentColor"
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://google.fr">
+                <svg aria-hidden="true" class="icon twitter" focusable="false" data-prefix="fab" data-icon="twitter"
+                  class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512">
+                  <path fill="currentColor"
+                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com/sd.webdesigner?r=nametag">
+                <svg aria-hidden="true" class="icon insta" focusable="false" data-prefix="fab" data-icon="instagram"
+                  class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512">
+                  <path fill="currentColor"
+                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                  </path>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="grid__item">
+          <p>Copyright © 2021 Portfoliodedouniasahli. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
