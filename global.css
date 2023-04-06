@@ -196,7 +196,7 @@
 }
 #main {
     position: relative;
-    background: #f4eeee url(images/bg02.png);
+    background: #f5e4e4 url(images/bg02.png);
     padding: 4em 0 4em 0;
 }
 @media screen and (max-width: 736px)
