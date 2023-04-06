@@ -190,8 +190,26 @@
 }
 
 
-
-
+@media screen and (max-width: 1280px)
+#main {
+    padding: 30px 0;
+}
+#main {
+    position: relative;
+    background: #f4eeee url(images/bg02.png);
+    padding: 4em 0 4em 0;
+}
+@media screen and (max-width: 736px)
+section, article {
+    margin-bottom: 20px;
+}
+section, article {
+    margin-bottom: 2.5em;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
   
   
   /* Sections */
@@ -897,7 +915,7 @@ margin: 0 auto; /* définir les marges gauche et droite à "auto" */
 display: flex;
 align-items: center;
 justify-content: center;
-animation: move 2s ease-in-out infinite alternate;
+
 
 
 }
